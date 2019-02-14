@@ -7,5 +7,4 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
     device/bliss/sepolicy/qcom/private
 
 BOARD_SEPOLICY_DIRS += \
-    device/bliss/sepolicy/qcom/common \
-    device/bliss/sepolicy/qcom/$(TARGET_BOARD_PLATFORM)
+    device/bliss/sepolicy/qcom/vendor
