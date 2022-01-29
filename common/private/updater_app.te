@@ -1,5 +1,3 @@
-type updater_app, domain, coredomain;
-
 app_domain(updater_app)
 net_domain(updater_app)
 
