@@ -1,0 +1,8 @@
+# Flipendo
+user=_app isPrivApp=true seinfo=platform name=com.google.android.flipendo domain=flipendo type=privapp_data_file levelFrom=all
+user=_app isPrivApp=true seinfo=platform name=com.google.android.flipendo.* domain=flipendo type=privapp_data_file levelFrom=all
+user=_app isPrivApp=true seinfo=platform name=com.google.android.flipendo:* domain=flipendo type=privapp_data_file levelFrom=all
+
+
+# Turbo Adapter
+user=_app seinfo=platform name=com.google.android.turboadapter domain=turbo_adapter type=app_data_file levelFrom=all
