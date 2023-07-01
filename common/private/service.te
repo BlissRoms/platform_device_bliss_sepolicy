@@ -10,3 +10,6 @@ type parallel_space_manager_service, system_api_service, system_server_service, 
 
 # App lock
 type app_lock_service, app_api_service, system_server_service, service_manager_type;
+
+# Linearmotor Vibrator
+type linearmotor_vibrator_service, system_api_service, system_server_service, service_manager_type;
