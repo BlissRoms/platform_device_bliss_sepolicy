@@ -35,3 +35,6 @@ get_prop(platform_app, pm_archiving_enabled_prop)
 
 # Allow storage access to files app
 allow platform_app mnt_pass_through_file:dir { getattr search };
+
+# Bliss Updater OTA package file
+allow platform_app ota_package_file:dir { read open search };
