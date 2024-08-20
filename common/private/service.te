@@ -12,3 +12,6 @@ type display_resolution_manager_service, system_api_service, system_server_servi
 
 # Refresh Rate Manager
 type refresh_rate_manager_service, system_api_service, system_server_service, service_manager_type;
+
+# Freeform
+type lmo_freeform_service, system_api_service, system_server_service, service_manager_type;

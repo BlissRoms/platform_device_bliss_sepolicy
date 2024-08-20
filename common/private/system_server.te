@@ -26,3 +26,6 @@ add_service(system_server, display_resolution_manager_service);
 
 # Refresh Rate Manager
 add_service(system_server, refresh_rate_manager_service);
+
+# Freeform
+add_service(system_server, lmo_freeform_service);
