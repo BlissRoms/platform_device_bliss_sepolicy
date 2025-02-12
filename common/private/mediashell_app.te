@@ -42,3 +42,5 @@ dontaudit mediashell_app proc:file read;
 
 # wifi ssid suffix helps identify device
 get_prop(mediashell_app, odm_cast_prop)
+
+dontaudit mediashell_app wifi_config_prop:file read;
