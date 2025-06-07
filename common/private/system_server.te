@@ -13,3 +13,9 @@ get_prop(system_server, vendor_persist_camera_prop)
 
 # Let system server toggle xtra-daemon
 set_prop(system_server, xtra_control_prop)
+
+# Display Resolution Manager
+add_service(system_server, display_resolution_manager_service);
+
+# Refresh Rate Manager
+add_service(system_server, refresh_rate_manager_service);
