@@ -6,3 +6,9 @@ lineagetrust                              u:object_r:lineage_trust_service:s0
 profile                                   u:object_r:lineage_profile_service:s0
 
 adbroot_service                           u:object_r:adbroot_service:s0
+
+# Display Resolution Manager
+resolution_ext                            u:object_r:display_resolution_manager_service:s0
+
+# Refresh Rate Manager
+refresh_rate_ext                          u:object_r:refresh_rate_manager_service:s0
