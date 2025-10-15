@@ -25,9 +25,6 @@ ro.lineage.display.version             u:object_r:custom_version_prop:s0
 ro.lineage.build.version               u:object_r:custom_version_prop:s0
 ro.lineage.releasetype                 u:object_r:custom_version_prop:s0
 
-# Radio
-ro.telephony.use_old_mnc_mcc_format    u:object_r:telephony_config_prop:s0
-
 # Recovery battery
 ro.recovery.batteryless                u:object_r:recovery_config_prop:s0 exact bool
 
