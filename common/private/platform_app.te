@@ -13,6 +13,9 @@ hal_client_domain(platform_app, hal_lineage_touch)
 # Allow externalstorage access
 allow platform_app mnt_pass_through_file:dir { create_dir_perms mounton };
 
+# Allow systemui access to bluetooth_lea_prop
+get_prop(platform_app, bluetooth_lea_prop)
+
 # allow apps like settings to check the file signature of an apk installed on
 # the Incremental File System, fill missing blocks and get the app status and loading progress
 allowxperm platform_app apk_data_file:file ioctl {
