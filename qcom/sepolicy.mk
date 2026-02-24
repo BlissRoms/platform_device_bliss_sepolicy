@@ -22,7 +22,7 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
     device/bliss/sepolicy/qcom/vendor
 endif
 
-ifeq (,$(filter msm8937 msm8953 msm8996 msm8998 sdm660 sdm710 sdm845, $(TARGET_BOARD_PLATFORM)))
+ifeq (,$(filter device/qcom/sepolicy-legacy-um/legacy/vendor/common device/qcom/sepolicy_vndr/legacy-um/legacy/vendor/common, $(BOARD_VENDOR_SEPOLICY_DIRS)))
 BOARD_SEPOLICY_M4DEFS += \
     custom_ab_block_device=vendor_custom_ab_block_device \
     display_vendor_data_file=vendor_display_vendor_data_file \
