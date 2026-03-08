@@ -1,3 +1,6 @@
+# Camera HAL
+/(vendor|system/vendor)/bin/hw/android\.hardware\.camera\.provider-service(_32)?\.lineage u:object_r:hal_camera_default_exec:s0
+
 # Fingerprint HAL
 /(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.0-service u:object_r:hal_fingerprint_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint-service\.lineage u:object_r:hal_fingerprint_default_exec:s0
@@ -14,6 +17,7 @@
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light-service\.lineage u:object_r:hal_light_default_exec:s0
 
 # LiveDisplay HAL
+/(vendor|system/vendor)/bin/hw/vendor\.lineage\.livedisplay-service.sysfs         u:object_r:hal_lineage_livedisplay_sysfs_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.lineage\.livedisplay@2\.0-service-sysfs    u:object_r:hal_lineage_livedisplay_sysfs_exec:s0
 
 # Power HAL
