@@ -10,15 +10,17 @@ persist.vendor.camera.privapp.list     u:object_r:camera2_extensions_prop:s0
 vendor.camera.aux.packageexcludelist   u:object_r:camera2_extensions_prop:s0
 vendor.camera.aux.packagelist          u:object_r:camera2_extensions_prop:s0
 
-# Custom legal URL
-ro.lineagelegal.url                    u:object_r:legal_url_prop:s0
-
 # Custom version
-ro.lineage.version                     u:object_r:custom_version_prop:s0
-ro.lineage.display.version             u:object_r:custom_version_prop:s0
-ro.lineage.build.version               u:object_r:custom_version_prop:s0
-ro.lineage.releasetype                 u:object_r:custom_version_prop:s0
-ro.lineage.device                      u:object_r:custom_version_prop:s0
+ro.bliss.project                       u:object_r:custom_version_prop:s0
+ro.bliss.codename                      u:object_r:custom_version_prop:s0
+ro.bliss.device                        u:object_r:custom_version_prop:s0
+ro.bliss.version                       u:object_r:custom_version_prop:s0
+ro.bliss.build.status                  u:object_r:custom_version_prop:s0
+ro.bliss.fingerprint                   u:object_r:custom_version_prop:s0
+ro.bliss.static.version                u:object_r:custom_version_prop:s0
+ro.bliss.build.variant                 u:object_r:custom_version_prop:s0
+ro.bliss.build.timestamp               u:object_r:custom_version_prop:s0
+ro.bliss.build                         u:object_r:custom_version_prop:s0
 
 # Force multi-window behavior
 ro.config.force_multi_window           u:object_r:exported_config_prop:s0 exact bool
