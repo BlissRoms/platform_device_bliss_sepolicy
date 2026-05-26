@@ -36,3 +36,5 @@ get_prop(platform_app, pm_archiving_enabled_prop)
 # Access zram sysfs
 allow platform_app sysfs_zram:dir r_dir_perms;
 allow platform_app sysfs_zram:file r_file_perms;
+
+get_prop(platform_app, custom_version_prop)
