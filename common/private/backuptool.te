@@ -1,6 +1,6 @@
 type backuptool, domain, coredomain;
 
-permissive backuptool;
+# permissive backuptool;
 
 neverallow {
     domain
